@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>أعمالي ومشاريعي | عبدالله الواقدي</title>
+
+    <meta name="description"
+          content="معرض أعمال عبدالله الواقدي في تصميم الهويات البصرية وتطوير مواقع الويب والكتابة الإبداعية.">
+
+    <meta name="theme-color" content="#090909">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span class="logo-mark">A</span>
+        <span>عبدالله <b>الواقدي</b></span>
+    </a>
+
+    <button class="menu-toggle"
+            aria-label="فتح القائمة"
+            aria-expanded="false">☰</button>
+
+    <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">من أنا؟</a>
+        <a href="portfolio.html" class="active">أعمالي</a>
+        <a href="contact.html">اطلب خدمة</a>
+    </nav>
+
+</header>
+
+<main class="container page-content">
+
+    <!-- عنوان الصفحة -->
+
+    <section class="page-title reveal">
+
+        <span class="eyebrow">معرض أعمالي</span>
+
+        <h1>
+            الإبداع يتحول إلى
+            <span class="gold-text">أعمال ملموسة</span>
+        </h1>
+
+        <p>
+            مجموعة من أعمالي في التصميم والبرمجة والكتابة،
+            حيث تتحول الأفكار إلى تجارب بصرية ورقمية.
+        </p>
+
+    </section>
+
+
+    <!-- أزرار تصنيف الأعمال -->
+
+    <div class="filters reveal">
+
+        <button class="filter-btn active" data-filter="all">
+            جميع الأعمال
+        </button>
+
+        <button class="filter-btn" data-filter="web">
+            تصميم وتطوير المواقع
+        </button>
+
+        <button class="filter-btn" data-filter="design">
+            الهويات البصرية
+        </button>
+
+        <button class="filter-btn" data-filter="writing">
+            الكتابة والأدب
+        </button>
+
+    </div>
+
+
+    <!-- معرض المشاريع -->
+
+    <section class="projects-grid reveal">
+
+
+        <!-- العمل الأول: الهوية البصرية -->
+
+        <article class="project-card" data-category="design">
+
+            <div class="project-image">
+
+                <img
+                    src="log.jpg"
+                    alt="أحد أعمال عبدالله الواقدي في تصميم الهويات البصرية"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="project-info">
+
+                <span class="project-type">
+                    تصميم الهوية البصرية
+                </span>
+
+                <h3>تصميم الشعارات والهويات</h3>
+
+                <p>
+                    تصميم بصري يركز على إبراز هوية المشروع،
+                    وتقديمه بصورة مميزة ومتناسقة.
+                </p>
+
+                <a href="contact.html?service=design">
+                    اطلب تصميم هويتك ←
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- العمل الثاني: تصميم وتطوير المواقع -->
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-image">
+
+                <img
+                    src="wip.jpg"
+                    alt="أحد أعمال عبدالله الواقدي في تصميم وتطوير مواقع الويب"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="project-info">
+
+                <span class="project-type">
+                    تصميم وتطوير الويب
+                </span>
+
+                <h3>تصميم وتطوير مواقع إلكترونية</h3>
+
+                <p>
+                    تطوير واجهات ويب عصرية ومتجاوبة،
+                    تجمع بين جمال التصميم وسهولة الاستخدام.
+                </p>
+
+                <a href="contact.html?service=web">
+                    اطلب تصميم موقعك ←
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- قسم الكتابة والأدب -->
+
+        <article class="project-card" data-category="writing">
+
+            <div class="project-art art-writing">
+
+                <span>✎</span>
+
+            </div>
+
+            <div class="project-info">
+
+                <span class="project-type">
+                    الكتابة والأدب
+                </span>
+
+                <h3>الكتابة والنصوص الأدبية</h3>
+
+                <p>
+                    مساحة للكلمة والقصيدة والنصوص الإبداعية،
+                    التي تحمل المعنى وتعبّر عن الفكرة.
+                </p>
+
+                <a href="contact.html?service=writing">
+                    اطلب كتابة نص ←
+                </a>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- دعوة للتواصل -->
+
+    <section class="cta reveal">
+
+        <div>
+
+            <span class="eyebrow">هل لديك مشروع جديد؟</span>
+
+            <h2>
+                لنجعل فكرتك
+                <span class="gold-text">واقعًا.</span>
+            </h2>
+
+            <p>
+                أخبرني بما تحتاج إليه، ولنبدأ من الفكرة
+                حتى الوصول إلى النتيجة التي تطمح إليها.
+            </p>
+
+        </div>
+
+        <a href="contact.html" class="btn btn-gold">
+            ابدأ مشروعك الآن ←
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <a href="index.html" class="logo">
+        <span class="logo-mark">A</span>
+        <span>عبدالله <b>الواقدي</b></span>
+    </a>
+
+    <p>
+        مبرمج ومصمم · شاعر وكاتب · قارئ قرآن
+    </p>
+
+    <p class="copyright">
+        © <span id="year"></span>
+        عبدالله الواقدي — جميع الحقوق محفوظة
+    </p>
+
+</footer>
+
+</body>
+</html>
